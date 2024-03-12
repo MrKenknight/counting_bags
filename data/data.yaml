@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['bag']
+
+roboflow:
+  workspace: nanor
+  project: data_bag_annotated
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nanor/data_bag_annotated/dataset/2
